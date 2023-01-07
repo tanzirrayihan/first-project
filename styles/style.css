@@ -11,7 +11,7 @@ main {
 /* header setion style */
 .header {
     background-image: url('../images/banner/banner1.png');
-    width: fit-content;
+    width: auto;
     height: 808px;
     left: 1600px;
     top: 808px;
@@ -46,6 +46,7 @@ main {
     height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
+    margin-top: 20px;
 
 }
 
@@ -117,3 +118,53 @@ main {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* footer styles */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 130px 200px;
+    margin-top: 113px;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.contact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F8F8;
+    margin-top: 20px;
+    margin-right: 230px;
+}
+.p-email{
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.p-phn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+.second-title{
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+.btn{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 20px 36px;
+    border: none;
+}
+
