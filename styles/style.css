@@ -19,7 +19,7 @@ main {
 }
 
 .banner {
-    margin: 0 200px;
+    margin: 0 150px;
     text-align: right;
 }
 
@@ -33,7 +33,6 @@ main {
 .header-description {
     color: #444343;
     font-weight: 400;
-    /* text-align: right; */
 
 }
 
@@ -164,7 +163,6 @@ main {
     font-weight: 600;
     font-size: 20px;
     margin-top: 15px;
-    padding: 20px 36px;
+    padding: 18px 30px;
     border: none;
 }
-
